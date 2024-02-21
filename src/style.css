@@ -1,0 +1,69 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set background color for the entire page */
+body {
+    background-color: #f0f8ff; /* AliceBlue */
+    font-family: Arial, sans-serif;
+    color: #000; /* Black */
+}
+
+/* Navigation menu styles */
+.navbar {
+    background-color: #00ffff; /* Aqua */
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar a {
+    color: #008000; /* Green */
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+/* Hero header styles */
+#home {
+    padding: 5rem 0;
+    text-align: center;
+    background-color: #7fffd4; /* Aquamarine */
+}
+
+/* About section styles */
+#about {
+    padding: 4rem 0;
+    background-color: #add8e6; /* LightBlue */
+}
+
+/* Services section styles */
+#services {
+    padding: 4rem 0;
+    background-color: #90ee90; /* LightGreen */
+}
+
+/* Portfolio section styles */
+#portfolio {
+    padding: 4rem 0;
+    background-color: #1e90ff; /* DodgerBlue */
+}
+
+/* Contact section styles */
+#contact {
+    padding: 4rem 0;
+    background-color: #ffa07a; /* LightSalmon */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #f0e68c; /* Khaki */
+    color: #000; /* Black */
+}
